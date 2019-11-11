@@ -1,0 +1,14 @@
+p {
+    color:rgb(10, 13, 22) ;
+}
+header {
+    size: 50pc;
+    color: sienna;
+    text-emphasis:center ;
+}
+li {
+    float:center;
+}
+body {
+    color: sienna;
+}
