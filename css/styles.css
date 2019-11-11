@@ -5,10 +5,12 @@ header {
     size: 50pc;
     color: sienna;
     text-emphasis:center ;
+    background: rosybrown;
 }
 li {
-    float:center;
+    width: 2px;
 }
 body {
     color: sienna;
+    background: rosybrown;
 }
