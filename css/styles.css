@@ -1,11 +1,15 @@
 p {
     color:rgb(10, 13, 22) ;
+    background: burlywood;
+    font: italic;
 }
 header {
     size: 50pc;
     color: rgb(19, 13, 10);
-    text-emphasis:center ;
     background-color: rgb(108, 187, 180);
+    padding: 2pc;
+    font: bold;
+    font-size: large;
 }
 li {
     width: 2px;
@@ -16,4 +20,17 @@ body {
 }
 head {
     background-color: rosybrown;
+}
+h3 {
+    margin: left;
+    border: black ;
+    border-color: black ;
+    border-style: solid;
+    display: block;
+    padding: 10px;
+
+}
+footer {
+    border: bisque;
+    border-style: solid;
 }
