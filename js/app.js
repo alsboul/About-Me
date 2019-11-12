@@ -1,8 +1,8 @@
 ' use strict'
-var Name = prompt('what is your name')
- alert('Hello  ' + Name);
-var Location = prompt( 'Do you live in jordan?');
-var lower = Location.toLowerCase();
+var userName = prompt('what is your name');
+ alert('Hello  ' + userName);
+var userLocation = prompt( 'Do you live in jordan?');
+var lower = userLocation.toLowerCase();
  switch (lower) {
      case 'yes':
      case 'y': 
@@ -13,11 +13,12 @@ var lower = Location.toLowerCase();
         alert('Unfortunately')
         break;
      default:
+         alert('please answer its a yes or no question ');
          break;
  }
  // console.log(' you live in jordan');
- var Age = prompt( 'Do you bigger than 18 years?');
-var lower = Age.toLowerCase();
+ var age = prompt( 'Do you older than 18 years?');
+ var lower = age.toLowerCase();
  switch (lower) {
      case 'yes':
      case 'y': 
@@ -25,14 +26,15 @@ var lower = Age.toLowerCase();
          break;
     case 'no':
     case 'n':
-        alert(' nice,but I think Im bigger than you !');
+        alert(' nice,but I think Im older than you !');
         break;
      default:
+         alert('please answer its a yes or no question ');
          break;
  }
- // console.log(' you are bigger than 18');
- var UNiv = prompt( 'Do you in the university?');
-var lower = UNiv.toLowerCase();
+ // console.log(' you are older than 18');
+ var university = prompt( ' Are you in the university?');
+var lower = university.toLowerCase();
  switch (lower) {
      case 'yes':
      case 'y': 
@@ -46,8 +48,8 @@ var lower = UNiv.toLowerCase();
          break;
  }
  // console.log(' you are in university');
- var Know = prompt( 'Do you Know information about software developer?');
-var lower = Know.toLowerCase();
+ var knowlage = prompt( 'Do you Know information about software developer?');
+var lower = knowlage.toLowerCase();
  switch (lower) {
      case 'yes':
      case 'y': 
@@ -58,11 +60,12 @@ var lower = Know.toLowerCase();
         alert(' you should know is a enthusiastic world');
         break;
      default:
+        alert('please answer its a yes or no question ');
          break;
  }
  // console.log(' you have ifm about S.D');
- var Intrsted = prompt( 'Do you intersted to Know information about me?');
-var lower = Intrsted.toLowerCase();
+ var interested = prompt( 'Do you interested to Know information about me?');
+var lower = interested.toLowerCase();
  switch (lower) {
      case 'yes':
      case 'y': 
@@ -70,10 +73,11 @@ var lower = Intrsted.toLowerCase();
          break;
     case 'no':
     case 'n':
-        alert('ohh! but Im intersted to know about you');
+    alert('ohh! but Im intersted to know about you');
         break;
      default:
+     alert('please answer its a yes or no question ');
          break;
  }
  // console.log(' you are Intersted about me');
- alert('thanks for Answering our Question  ' + Name );
+ alert('thanks for Answering our Question  ' + userName );
