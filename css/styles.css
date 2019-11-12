@@ -1,18 +1,21 @@
 p {
     color:rgb(10, 13, 22) ;
-    background: burlywood;
-    font: italic;
+    background: rgb(132, 173, 189);
+    font-style: italic;
+    font-size: 25px;
+
 }
 header {
-    size: 50pc;
-    color: rgb(19, 13, 10);
-    background-color: rgb(108, 187, 180);
-    padding: 2pc;
-    font: bold;
-    font-size: large;
+    background-color: rgb(181, 196, 247);
+    color: black;
+    padding: 2px;
+    font-style: bold;
+    font-size: 5pc;
+    text-align: center;
 }
 li {
-    width: 2px;
+    font-size: 25px;
+    
 }
 body {
     color: rgb(39, 19, 19);
@@ -22,15 +25,18 @@ head {
     background-color: rosybrown;
 }
 h3 {
-    margin: left;
+    margin: right;
     border: black ;
     border-color: black ;
     border-style: solid;
     display: block;
+    text-align: center;
     padding: 10px;
-
+    font-size: 3pc;
 }
 footer {
     border: bisque;
     border-style: solid;
+    text-align: center;
+    font-size: 15px;
 }

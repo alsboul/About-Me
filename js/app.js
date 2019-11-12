@@ -1,70 +1,70 @@
 ' use strict'
-var userName = prompt('what is your name');
+var userName = prompt('what is your name ?');
  alert('Hello  ' + userName);
 var counter =0;
-alert( userName +'  I want to ask you 7 questions and depending on your answers I will count the points you got ');
-var userLocation = prompt( 'Do you live in jordan?');
+alert( userName +'  I want to ask you 7 questions about me by guessing and depending on your answers I will count the points you got ');
+var userLocation = prompt( 'Do I live in Jordan?');
 var lower = userLocation.toLowerCase();
  switch (lower) {
      case 'yes':
      case 'y': 
      counter++; 
-    alert(' greate , Im in jordan too , your point is:  ' + counter);
+    alert(' correct ! , your point is:  ' + counter);
          break;
     case 'no':
     case 'n':
-        alert('Unfortunately your point is ' + counter);
+        alert('Unfortunately , am I . your point is ' + counter);
         break;
      default:
          alert('please answer its a yes or no question ');
          break;
  }
  // console.log(' you live in jordan');
- var age = prompt( 'Do you older than 18 years?');
+ var age = prompt( 'Am I older than 18 years?');
  var lower = age.toLowerCase();
  switch (lower) {
      case 'yes':
      case 'y':
     counter++; 
-    alert(' me too ,your points is : ' + counter);
+    alert(' nice try ! ,your points is : ' + counter);
          break;
     case 'no':
     case 'n':
-        alert(' sorry your age is a Requirement  ! your points : ' + counter );
+        alert(' NO , Im 23 years old! your points : ' + counter );
         break;
      default:
          alert('please answer its a yes or no question ');
          break;
  }
  // console.log(' you are older than 18');
- var university = prompt( ' Are you in the university?');
+ var university = prompt( ' Am I in the university?');
 var lower = university.toLowerCase();
  switch (lower) {
      case 'yes':
      case 'y': 
      counter++;
-    alert(' great , you have got an extra point , your point is: ' + counter);
+    alert(' Right answer, you have got an extra point , your point is: ' + counter);
          break;
     case 'no':
     case 'n':
-        alert('ohh! your point is: ' + counter);
+        alert(' wrong answer! your point is: ' + counter);
         break;
      default:
         alert('please answer its a yes or no question ');
          break;
  }
  // console.log(' you are in university');
- var knowlage = prompt( 'Do you have any information about software developer?');
+ var knowlage = prompt( 'Do you think I have information on software developer?');
 var lower = knowlage.toLowerCase();
  switch (lower) {
      case 'yes':
      case 'y': 
      counter++;
-    alert(' greate ,your point is: ' + counter);
+    alert(' good guess! ,your point is: ' + counter);
          break;
     case 'no':
     case 'n':
-        alert(' you should have !, its a good chance, your point is: ' + counter);
+        alert(' You are not lucky this time, your point is: ' + counter);
         break;
      default:
         alert('please answer its a yes or no question ');
@@ -81,14 +81,14 @@ var lower = knowlage.toLowerCase();
          break;
     case 'no':
     case 'n':
-    alert('ohh! but Im intersted to know about you ,your point is: ' + counter);
+    alert('ohh! but Im intersted about you , your point is: ' + counter);
         break;
      default:
      alert('please answer its a yes or no question ');
          break;
     }  
  // console.log(' you are Intersted about me');
- var favNumber = prompt('can you guess what is my favorite number? " write your guess');
+ var favNumber = prompt(' what is my favorite number? " write your guess');
     for (var i = 0 ; i < 4 ; i++){
     if (favNumber == 9 ){
     // console.log(' but my favorite number');
@@ -97,10 +97,10 @@ var lower = knowlage.toLowerCase();
         i=10;
     } else if ( favNumber > 9){
         alert('too high');
-        favNumber = prompt('can you guess what is my favorite number? " write your guess');
+        favNumber = prompt(' what is my favorite number? " write your guess');
     } else {
         alert('too low');
-        favNumber = prompt('can you guess what is my favorite number? " write your guess')
+        favNumber = prompt(' what is my favorite number? " write your guess')
     }
     
     if (i ==4){
@@ -109,8 +109,8 @@ var lower = knowlage.toLowerCase();
  }
  
  var arrAnswer = ['pizza','mandi','mansaf','burger','molokhia','shawerma','pasta'];
-   // arrAnswer = arrAnswer.toLowerCase();
-   for (var y = 0 ; y < 7 ; y++) {
+  // arrAnswer = arrAnswer.toLowerCase();
+   for (var y = 0 ; y < 6 ; y++) {
     var favFood = prompt('write one of my favorite food by your guessing ');
 
         for (var s=0 ; s < 7 ; s++){
@@ -118,7 +118,7 @@ var lower = knowlage.toLowerCase();
             if (favFood == arrAnswer[s]){
                 counter++;
                 alert('your answer is correct , your points : ' + counter);
-                y = 11;
+                y = 7;
             } 
             // else if (favFood !== arrAnswer[s]) 
             // {
@@ -126,7 +126,7 @@ var lower = knowlage.toLowerCase();
             // }
            
         }
-        if (y == 7)
+        if (y == 6)
         {
         alert(' sorry you have 7 chance ,your points is : ' + counter);
         }
