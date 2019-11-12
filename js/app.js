@@ -6,11 +6,11 @@ var lower = userLocation.toLowerCase();
  switch (lower) {
      case 'yes':
      case 'y': 
-    alert(' greate , Im in jordan too')
+    alert(' greate , Im in jordan too');
          break;
     case 'no':
     case 'n':
-        alert('Unfortunately')
+        alert('Unfortunately');
         break;
      default:
          alert('please answer its a yes or no question ');
@@ -22,7 +22,7 @@ var lower = userLocation.toLowerCase();
  switch (lower) {
      case 'yes':
      case 'y': 
-    alert(' me too')
+    alert(' me too');
          break;
     case 'no':
     case 'n':
@@ -38,11 +38,11 @@ var lower = university.toLowerCase();
  switch (lower) {
      case 'yes':
      case 'y': 
-    alert(' greate')
+    alert(' greate');
          break;
     case 'no':
     case 'n':
-        alert('ohh!')
+        alert('ohh!');
         break;
      default:
         alert('please answer its a yes or no question ');
