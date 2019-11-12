@@ -45,6 +45,7 @@ var lower = university.toLowerCase();
         alert('ohh!')
         break;
      default:
+        alert('please answer its a yes or no question ');
          break;
  }
  // console.log(' you are in university');
