@@ -3,6 +3,7 @@ var userName = prompt('what is your name ?');
  alert('Hello  ' + userName);
 var counter =0;
 alert( userName +'  I want to ask you 7 questions about me by guessing and depending on your answers I will count the points you got ');
+function getLocation (){
 var userLocation = prompt( 'Do I live in Jordan?');
 var lower = userLocation.toLowerCase();
  switch (lower) {
@@ -19,7 +20,11 @@ var lower = userLocation.toLowerCase();
          alert('please answer its a yes or no question ');
          break;
  }
+ }
+ getLocation();
  // console.log(' you live in jordan');
+ function getAge()
+ {
  var age = prompt( 'Am I older than 18 years?');
  var lower = age.toLowerCase();
  switch (lower) {
@@ -36,6 +41,8 @@ var lower = userLocation.toLowerCase();
          alert('please answer its a yes or no question ');
          break;
  }
+ }
+ getAge();
  // console.log(' you are older than 18');
  var university = prompt( ' Am I in the university?');
 var lower = university.toLowerCase();
