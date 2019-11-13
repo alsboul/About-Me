@@ -1,8 +1,13 @@
 ' use strict'
+function getUserName()
+{
 var userName = prompt('what is your name ?');
 alert('Hello  ' + userName);
-var counter = 0;
 alert(userName + '  I want to ask you 7 questions about me by guessing and depending on your answers I will count the points you got ');
+}
+getUserName();
+var counter = 0;
+
 function getLocation() {
     var userLocation = prompt('Do I live in Jordan?');
     var lower = userLocation.toLowerCase();
