@@ -93,7 +93,7 @@ var lower = knowlage.toLowerCase();
     if (favNumber == 9 ){
     // console.log(' but my favorite number');
         counter++;
-        alert('correct , your score =' + counter);
+        alert('correct , your points =' + counter);
         i=10;
     } else if ( favNumber > 9){
         alert('too high');
