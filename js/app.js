@@ -65,6 +65,8 @@ switch (lower) {
 }
 getUniversty();
 // console.log(' you are in university');
+function getKnowlage()
+{
 var knowlage = prompt('Do you think I have information on software developer?');
 var lower = knowlage.toLowerCase();
 switch (lower) {
@@ -81,6 +83,8 @@ switch (lower) {
         alert('please answer its a yes or no question ');
         break;
 }
+}
+getKnowlage();
 // console.log(' you have ifm about S.D');
 var interested = prompt('Do you interested to Know any information about me?');
 var lower = interested.toLowerCase();
