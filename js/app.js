@@ -103,6 +103,8 @@ switch (lower) {
         break;
 }
 // console.log(' you are Intersted about me');
+function getFavNumber()
+{
 var favNumber = prompt(' what is my favorite number? " write your guess');
 for (var i = 0; i < 4; i++) {
     if (favNumber == 9) {
@@ -122,7 +124,10 @@ for (var i = 0; i < 4; i++) {
         alert(' sorry you have 4 chance ,your points is : ' + counter);
     }
 }
-
+}
+getFavNumber();
+function getFavFood()
+{
 var arrAnswer = ['pizza', 'mandi', 'mansaf', 'burger', 'molokhia', 'shawerma', 'pasta'];
 // arrAnswer = arrAnswer.toLowerCase();
 for (var y = 0; y < 6; y++) {
@@ -145,5 +150,7 @@ for (var y = 0; y < 6; y++) {
         alert(' sorry you have 7 chance ,your points is : ' + counter);
     }
 }
+}
+getFavFood();
 // should i change the final alert 
 alert('thanks for Answering our Question  ' + userName + ' your points: ' + counter);
