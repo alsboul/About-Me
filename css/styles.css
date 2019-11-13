@@ -13,8 +13,12 @@ header {
     font-size: 5pc;
     text-align: center;
 }
+ol li {
+    list-style-type: decimal;
+}
 li {
     font-size: 25px;
+    margin-left:200px ;
     
 }
 body {
